@@ -41,4 +41,4 @@ ln -s functions/mass_storage.ms0 configs/c.1/
 udevadm settle -t 5 || :
 ls /sys/class/udc/ > UDC
 
-ifconfig usb0 192.168.3.1
+ifconfig usb0 10.42.0.3
